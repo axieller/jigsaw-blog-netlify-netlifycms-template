@@ -1,12 +1,16 @@
 ---
-extends: _layouts.post
-section: content
-title: Customizing Your Site
+excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS
+  framework that allows you to customize and build complex designs without
+  touching a line of CSS.
+title: Customizing Your Site- test
+author: John Smith
 date: 2018-12-24
 description: Customize your site with CSS and JS
-categories: [configuration]
+categories:
+  - configuration
 featured: true
-excerpt: This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS.
+extends: _layouts.post
+section: content
 ---
 
 This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.com), a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the `/source/_assets/sass` folder, set up with the expectation that you can add any custom CSS into `_blog.scss`.
